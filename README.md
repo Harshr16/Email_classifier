@@ -152,5 +152,33 @@ The API will be running at:
   "category_of_the_email": "..."
 }  
 
+**vii) API Deployment & Usage**  
+
+Deployed API (Hugging Face Spaces): 
+
+https://harshr16-email-classifier-api.hf.space/classify  
+
+**viii)How to Use the API via POST Request (e.g., Postman):**  
+
+To use the API, send a POST request to:  
+
+https://harshr16-email-classifier-api.hf.space/classify  
+
+Request Body (JSON): 
+
+{
+  "email_text": "Hi my name is Harsh Rudani. My phone is 9876543210 and CVV is 123."
+}  
+
+Response (JSON):  
+
+{
+  "input_email_body": "...",
+  "list_of_masked_entities": [...],
+  "masked_email": "...",
+  "category_of_the_email": "..."
+}  
+
+
 
 
