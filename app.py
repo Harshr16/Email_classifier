@@ -3,6 +3,8 @@ from pydantic import BaseModel
 from utils import mask_pii, demask_email, classify_email
 import re
 from typing import List, Dict
+from fastapi import FastAPI, Request, Form
+
 
 app = FastAPI(title="Email Classifier API")
 
