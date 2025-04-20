@@ -131,7 +131,11 @@ The API will be running at:
 - http://127.0.0.1:8000/docs#/default/classify_email_route_classify_post
 
 
-**API Endpoint Usage**  
+**vi) API Endpoint Usage**  
+
+**Click on POST /classify_email.**  
+
+**Click the "Try it out" button.**  
 
 **Input JSON**   
 
